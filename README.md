@@ -80,4 +80,4 @@ We use the [Kaggle](www.kaggle.com) IMDB data set for this problem. This data se
 
 The user preferences data file is embedded below. It can also be downloaded from [here](https://gist.github.com/dhanush/9409f9afe2d15956dd508d95b933726f)
 
-<script src="https://gist.github.com/dhanush/9409f9afe2d15956dd508d95b933726f"></script>
+<script src="https://gist.github.com/dhanush/9409f9afe2d15956dd508d95b933726f.js"></script>
