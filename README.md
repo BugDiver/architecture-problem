@@ -60,7 +60,7 @@ A json array of userids and top 3 movies recommended. The movie names are sorted
 
 ```javascript
 [
-	{“user”:”100”, “movies”:[“A",”B”,C”]}, 	{“user”:”101”, “movies”:[“A",”D”,C”]},{“user”:”102”, “movies”:[“A",”D”,C”]},{“user”:”103”, “movies”:[“A",”D”,C”]},{“user”:”104”, “movies”:[“A",”D”,C”]},{“user”:”105”, “movies”:[“A",”D”,C”]}
+	{“user”:”100”, “movies”:[“A",”B”,C”]}, 	{“user”:”101”, “movies”:[“A",”D”,C”]},{“user”:”102”, “movies”:[“A",”D”,C”]},{“user”:”103”, “movies”:[“A",”DD”,C”]},{“user”:”104”, “movies”:[“AA",”D”,C”]},{“user”:”105”, “movies”:[“A",”D”,CD”]}, {“user”:”106”, “movies”:[“A",”D”,E”]}
 ]
 ```
 
@@ -80,4 +80,126 @@ We use the [Kaggle](www.kaggle.com) IMDB data set for this problem. This data se
 
 The user preferences data file is embedded below. It can also be downloaded from [here](https://gist.github.com/dhanush/9409f9afe2d15956dd508d95b933726f)
 
-<script src="https://gist.github.com/dhanush/9409f9afe2d15956dd508d95b933726f.js"></script>
+
+```javascript
+
+[
+  {
+    "100": {
+      "preferred_languages": [
+        "English",
+        "Spanish"
+      ],
+      "favourite_actors": [
+        "Denzel Washington",
+        "Kate Winslet",
+        "Emma Suárez",
+        "Tom Hanks"
+      ],
+      "favourite_directors": [
+        "Steven Spielberg",
+        "Martin Scorsese",
+        "Pedro Almodóvar"
+      ]
+    }
+  },
+  {
+    "101": {
+      "preferred_languages": [
+        "English"
+      ],
+      "favourite_actors": [
+        "Denzel Washington",
+        "Anne Hathaway",
+        "Tom Hanks"
+      ],
+      "favourite_directors": [
+        "Guy Ritchie",
+        "Quentin Tarantino"
+      ]
+    }
+  },
+  {
+    "102": {
+      "preferred_languages": [
+        "English"
+      ],
+      "favourite_actors": [
+        "Uma Thurman",
+        "Charlize Theron",
+        "John Travolta"
+      ],
+      "favourite_directors": [
+        "Quentin Tarantino"
+      ]
+    }
+  },
+  {
+    "103": {
+      "preferred_languages": [
+        "English"
+      ],
+      "favourite_actors": [
+        "Antonio Banderas",
+        "Clint Eastwood",
+        "Bruce Willis"
+      ],
+      "favourite_directors": [
+        "Stanley Kubrick",
+        "Oliver Stone"
+      ]
+    }
+  },
+  {
+    "104": {
+      "preferred_languages": [
+        "English"
+      ],
+      "favourite_actors": [
+        "Anthony Hopkins",
+        "Adam Sandler",
+        "Bruce Willis"
+      ],
+      "favourite_directors": [
+        "Nora Ephron",
+        "Oliver Stone"
+      ]
+    }
+  },
+  {
+    "105": {
+      "preferred_languages": [
+        "Spanish"
+      ],
+      "favourite_actors": [
+        "Anthony Hopkins",
+        "Bárbara Goenaga",
+        "Tenoch Huerta"
+      ],
+      "favourite_directors": [
+        "Amat Escalante",
+        "Robert Rodriguez"
+      ]
+    }
+  },
+  {
+    "106": {
+      "preferred_languages": [
+        "English",
+        "Spanish"
+      ],
+      "favourite_actors": [
+        "Brad Pitt",
+        "Robert Downey Jr.",
+        "Jennifer Lawrence",
+        "Johnny Depp"
+      ],
+      "favourite_directors": [
+        "Steven Spielberg",
+        "Martin Scorsese",
+        "Ridley Scott"
+      ]
+    }
+  }
+]
+```
