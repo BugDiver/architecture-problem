@@ -60,7 +60,7 @@ A json array of userids and top 3 movies recommended. The movie names are sorted
 
 ```javascript
 [
-	{“user”:”100”, “movies”:[“A",”B”,C”]}, 	{“user”:”101”, “movies”:[“A",”D”,C”]},{“user”:”102”, “movies”:[“A",”D”,C”]},{“user”:”103”, “movies”:[“A",”DD”,C”]},{“user”:”104”, “movies”:[“AA",”D”,C”]},{“user”:”105”, “movies”:[“A",”D”,CD”]}, {“user”:”106”, “movies”:[“A",”D”,E”]}
+	{“user”:”100”, “movies”:[“A",”B”,C”]}, 	{“user”:”101”, “movies”:[“A",”D”,C”]},{“user”:”102”, “movies”:[“A",”D”,C”]},{“user”:”103”, “movies”:[“A",”DD”,C”]},{“user”:”104”, “movies”:[“AA",”D”,C”]},{“user”:”105”, “movies”:[“A",”D”,"CD”]}, {“user”:”106”, “movies”:[“A",”D”,"E”]}
 ]
 ```
 
