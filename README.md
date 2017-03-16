@@ -1,8 +1,12 @@
 ## Problem
 
-Our coding challenges are set in the planet of Lengaburu. King Shan is the emperor and has been ruling for the last 350 years (they have long lives in Lengaburu you see)!
+Our [coding challenges](https://www.geektrust.in/coding-problem) are set in the planet of Lengaburu. King Shan is the emperor and has been ruling for the last 350 years (they have long lives in Lengaburu you see)!
 
-King Shan is very fond of movies and wants to take his family for a movie. But there is a problem. They can’t agree on which movie to watch as each of them has their own movie preference. So King Shan declares a movie watching spree and he takes each person to watch the movie they want to see based on their preferences. 
+King Shan is very fond of movies and wants to take his [family](https://www.geektrust.in/assets/images/family-tree.jpg) for a movie. But there is a problem. They can’t agree on which movie to watch as each of them has their own movie preference. So King Shan declares a movie watching spree and he takes each person to watch the movie they want to see based on their preferences. 
+
+<center>
+![Alt text](https://www.geektrust.in/assets/images/shan.png "King Shan")
+</center>
 
 Your coding challenge is to: 
 
@@ -22,7 +26,7 @@ Request Type : GET
 URL : `http://<url>/movies/user/$userId/search?text=<text>`
 
 
-Where the `$userId` is the id of the user from the JSON file given and `<text>`  is the search text. The search text could be a multiple words separated by comma, in which case it will search for all of those. Or it could be a single urlencoded entry. The search text is matched against actor, director and title fields (*director_name*, *actor_1_name*, *actor_2_name*, *actor_3_name* and *movie_title* in the movies data) of the movies. All matches are included in the results. 
+Where the `$userId` is the id of the user from the user preferences JSON file given and `<text>`  is the search text. The search text could be a multiple words separated by comma, in which case it will search for all of those. Or it could be a single urlencoded entry. The search text is matched against actor, director and title fields (*director_name*, *actor_1_name*, *actor_2_name*, *actor_3_name* and *movie_title* in the movies data) of the movies. All matches are included in the results. 
 
 `<url>` is the domain name in the URL where you are hosting the solution.
 
