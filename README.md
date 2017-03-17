@@ -2,7 +2,7 @@
 
 Our [coding challenges](https://www.geektrust.in/coding-problem) are set in the planet of Lengaburu. King Shan is the emperor and has been ruling for the last 350 years (they have long lives in Lengaburu you see)!
 
-King Shan is very fond of movies and wants to take his [family](https://www.geektrust.in/assets/images/family-tree.jpg) for a movie. But there is a problem. They can’t agree on which movie to watch as each of them has their own movie preference. So King Shan declares a movie watching spree and he takes each person to watch the movie they want to see based on their preferences. 
+King Shan is very fond of movies and wants to take his family for a movie. But there is a problem. They can’t agree on which movie to watch as everyone has their own movie preference. So King Shan declares a movie watching spree and takes each person to watch the movie they want to see based on their preferences. 
 
 <center>
 ![Alt text](https://www.geektrust.in/assets/images/shan.png "King Shan")
