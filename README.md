@@ -4,9 +4,9 @@ Our [coding challenges](https://www.geektrust.in/coding-problem) are set in the 
 
 King Shan is very fond of movies and wants to take his family for a movie. But there is a problem. They can’t agree on which movie to watch as everyone has their own movie preference. So King Shan declares a movie watching spree and takes each person to watch the movie they want to see based on their preferences. 
 
-<center>
+
 ![Alt text](https://www.geektrust.in/assets/images/shan.png "King Shan")
-</center>
+
 
 Your coding challenge is to: 
 
@@ -64,7 +64,62 @@ A json array of userids and top 3 movies recommended. The movie names are sorted
 
 ```javascript
 [
-	{“user”:”100”, “movies”:[“A",”B”,C”]}, 	{“user”:”101”, “movies”:[“A",”D”,C”]},{“user”:”102”, “movies”:[“A",”D”,C”]},{“user”:”103”, “movies”:[“A",”DD”,C”]},{“user”:”104”, “movies”:[“AA",”D”,C”]},{“user”:”105”, “movies”:[“A",”D”,"CD”]}, {“user”:”106”, “movies”:["A","D","E"]}
+  {
+    "user": "100",
+    "movies": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "user": "101",
+    "movies": [
+      "A",
+      "D",
+      "C"
+    ]
+  },
+  {
+    "user": "102",
+    "movies": [
+      "A",
+      "D",
+      "C"
+    ]
+  },
+  {
+    "user": "103",
+    "movies": [
+      "A",
+      "DD",
+      "C"
+    ]
+  },
+  {
+    "user": "104",
+    "movies": [
+      "AA",
+      "D",
+      "C"
+    ]
+  },
+  {
+    "user": "105",
+    "movies": [
+      "A",
+      "D",
+      "CD"
+    ]
+  },
+  {
+    "user": "106",
+    "movies": [
+      "A",
+      "D",
+      "E"
+    ]
+  }
 ]
 ```
 
