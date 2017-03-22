@@ -127,10 +127,14 @@ A json array of userids and top 3 movies recommended. The movie names are sorted
 ## What we evaluate your solution on:
 
 1. Overall architecture 
-2. Code scalability. Can it handle 1000s of hits in a second?
+2. Code scalability. Can it handle 1000s of hits a second?
 3. Clean code, RESTful semantics, and object modelling 
 4. Bonus points for automating the deployment of your solution
 5. When the instructions are not clear or there are multiple solution possibilities, make a choice that you find reasonable and practical.
+
+#### Need help?
+
+If you have questions, do mail us or join our Slack channel and we'll be happy to help you out. Send a mail to devs@geektrust.in with 'Add to slack', and we'll send you an invite to our Slack channel.
 
 
 #### Files
