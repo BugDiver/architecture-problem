@@ -14,7 +14,7 @@ Your coding challenge is to:
 
 2. Build a Restful web service API which will list out all the users and the top 3 recommended movies for each user based on their preferences.
 
-Develop the application in Java and host the service in Cloud infrastructure like AWS/Heroku and give us the url endpoints or a Postman project for the same. The input & output for the two web services are given below
+Develop the application in a language of your choice and host the service in Cloud infrastructure like AWS/Heroku and give us the url endpoints or a Postman project for the same. The input & output for the two web services are given below
 
 
 ### API 1
