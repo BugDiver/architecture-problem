@@ -126,7 +126,7 @@ A json array of userids and top 3 movies recommended. The movie names are sorted
 
 ## What we evaluate your solution on:
 
-1. Overall architecture 
+1. Overall architecture. Please submit documentation to explain your choices and the complete architecture.
 2. Code scalability. Can it handle 1000s of hits a second?
 3. Clean code, RESTful semantics, and object modelling 
 4. Bonus points for automating the deployment of your solution
