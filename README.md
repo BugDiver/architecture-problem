@@ -10,7 +10,7 @@ King Shan is very fond of movies and wants to take his family for a movie. But t
 
 Your coding challenge is to: 
 
-1. Build a Restful web service API which will accept a search string and userID and return movies in the order of preference for that user (user preferences data set & movie data set is provided)
+1. Build a Restful web service API which will accept a search string and userID and return unique movies in the order of preference for that user (user preferences data set & movie data set is provided)
 
 2. Build a Restful web service API which will list out all the users and the top 3 recommended movies for each user based on their preferences.
 
